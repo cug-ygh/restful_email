@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
 public class Email {
     public static String send_email(String address,String url) {
         // 如果是除杭州region外的其它region（如新加坡、澳洲Region），需要将下面的"cn-hangzhou"替换为"ap-southeast-1"、或"ap-southeast-2"。
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FhKyB2Fa8AtiddNM7NT", "WEsY7VpQcMYu2ZYdfTmmZEvD9zCxrc");
+        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", 阿里云密码, "WEsY7VpQcMYu2ZYdfTmmZEvD9zCxrc");
 
         // 如果是除杭州region外的其它region（如新加坡region）， 需要做如下处理
         //try {
@@ -62,7 +62,7 @@ public class Email {
     }
     public static String send_many_email(String address[], String url) {
         // 如果是除杭州region外的其它region（如新加坡、澳洲Region），需要将下面的"cn-hangzhou"替换为"ap-southeast-1"、或"ap-southeast-2"。
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FhKyB2Fa8AtiddNM7NT", "WEsY7VpQcMYu2ZYdfTmmZEvD9zCxrc");
+        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", 阿里云密码(你自己的), "WEsY7VpQcMYu2ZYdfTmmZEvD9zCxrc");
 
         // 如果是除杭州region外的其它region（如新加坡region）， 需要做如下处理
         //try {
